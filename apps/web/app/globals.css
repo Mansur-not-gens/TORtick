@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink-950 text-zinc-100 antialiased;
+}
+
+.glass {
+  background: rgba(10, 2, 20, 0.55);
+  border: 1px solid rgba(168, 85, 247, 0.18);
+  backdrop-filter: blur(14px);
+}
+
+.neon-ring {
+  box-shadow:
+    0 0 0 1px rgba(168, 85, 247, 0.25),
+    0 12px 55px rgba(0, 0, 0, 0.55);
+}
+
